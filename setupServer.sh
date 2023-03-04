@@ -15,6 +15,10 @@ rm -rf ./.git
 rm -rf ./frontend/
 rm -rf ./LICENSE README.md
 mv ./serverPingAPI/ /home/pingChecker
+echo "Install Node & npm & yarn"
+curl -fsSL https://deb.nodesource.com/setup_19.x | sudo -E bash - &&\
+sudo apt install -y nodejs
+npm install yarn -g
 echo "Install dependencies"
 yarn install
 echo "Setup .env"
