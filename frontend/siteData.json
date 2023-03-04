@@ -1,0 +1,26 @@
+{
+    "web": [
+        {
+            "title": "test",
+            "url": "http://localhost:3000/api/status"
+        }
+    ],
+    "servers": [
+        {
+            "title": "test",
+            "url": "http://localhost:3000/api/status"
+        }
+    ],
+    "bots": [
+        {
+            "title": "test",
+            "url": "http://localhost:3000/api/status"
+        }
+    ],
+    "misc": [
+        {
+            "title": "test",
+            "url": "http://localhost:3000/api/status"
+        }
+    ]
+}
